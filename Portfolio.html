@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Gourav Kumar Ojha - Portfolio</title>
+    
+</head>
+<body>
+    <section class="container" id="myhome">
+        <nav>
+            <div class="logo">Portfolio <b>.</b></div>
+            <ul class="navItem">
+                <li>
+                    <a href="#myhome">Home</a>
+                    <a href="#skills">Skill</a>
+                    <a href="#projects">Project</a>
+                    <a href="https://www.linkedin.com/in/gourav-kumar-ojha-13853b290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Contact</a>
+                </li>
+            </ul>
+            <div class="links">
+                <a href="https://www.linkedin.com/in/gourav-kumar-ojha-13853b290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/gourav.raj.31521" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://github.com/RazzGourav" target="_blank"><i class="fa fa-github"></i></a>
+            </div>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello,<br>I'm Gourav kumar ojha </span>
+                <h1> And I'm a <br><span class="multiText"></span></h1>
+                <p>Self-motivated and hardworking fresher seeking for an opportunity to work in a challenging environment to prove and improve my skills and gain knowledge and experience.</p>
+                <div class="btns">
+                    <button><a href="cv/Gourav ojha(CV).pdf" download="Resume" >Download cv</a> <i class="fa fa-download"></i></button>
+                    <Button>Hire Me</Button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="img/img2.png" id="splash" alt="">
+                    <img src="img/mypic.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-code"></i>
+                <h3>Full Stack Development</h3>
+                <p>HTML , CSS, React, Node.js, Express.js, Python, Javascript, MongoDB, C++, Java</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI & Machine Learning</h3>
+                <p>TensorFlow, PyTorch, Scikit-learn</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-gamepad"></i>
+                <h3>Web3 , Game Development & DSA</h3>
+                <p>Solidity, Unity, Ethereum , C++</p>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="./img/bgi3.jpg" alt="Project 1">
+                <h3>Online Banking Simulation</h3>
+                <p>A full-stack Online Banking Simulation built with HTML CSS Javascript MongoDB and Node.js</p>
+                <div class="project-links">
+                    <a href="https://github.com/RazzGourav/GSRABank" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./img/voting.jpeg" alt="Project 2">
+                <h3>E-voting</h3>
+                <p>An online voting system that uses facial recognition tool and aadhar number to authenticate voters and record their votes nd provides a user-friendly interface for casting votes using Python OpenCV  scikit-learn win32com pickle & CSV</p>
+                <div class="project-links">
+                    <a href="https://github.com/RazzGourav/E-Voting" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                    
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./img/blockchain.jpeg" alt="Project 3">
+                <h3>Blockchain based Voter Card</h3>
+                <p>A Blockchain based Voter Card built using Ethereum  Solidity  Web3.js Ethers.js React Node.js Ganache & Truffle</p>
+                <div class="project-links">
+                    <a href="https://github.com/RazzGourav/Matdata-Mitra" class="github-link"><i class="fab fa-github"></i> View Code</a>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="comment-box">
+            <h3>Leave a Feedback</h3>
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" name="" id="" placeholder="Enter Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your comment"></textarea>
+                <button type="submit" class="hero red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect =new Typed(".multiText",{
+            strings : ["Full Stack Developer", "AI Engineer", "Blockchain Developer","Innovator"],
+            loop:true,
+            typeSpeed :100,
+            backSpeed :80,
+            backDelay :1500
+        })
+    </script>
+    <footer class="footer">
+        <p class="footer-text">© Gourav Kumar Ojha</p>
+    </footer>
+</body>
+</html>
